@@ -314,8 +314,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39e0645caf5de4f4b8700a770d9aa8f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1424870320}
   sens: 1
+  minAngle: -8
+  maxAngle: 8
 --- !u!1 &1420052400
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,7 +410,7 @@ GameObject:
   - component: {fileID: 1424870316}
   - component: {fileID: 1424870315}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -443,7 +444,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!136 &1424870317
 CapsuleCollider:
